@@ -1,0 +1,72 @@
+[
+    {
+      "userId": 1,
+      "name": "Alice Smith",
+      "age": 25,
+      "email": "alice.smith@example.com",
+      "isSubscriber": true
+    },
+    {
+      "userId": 2,
+      "name": "Bob Johnson",
+      "age": 30,
+      "email": "bob.johnson@example.com",
+      "isSubscriber": false
+    },
+    {
+      "userId": 3,
+      "name": "Carol Williams",
+      "age": 28,
+      "email": "carol.williams@example.com",
+      "isSubscriber": true
+    },
+    {
+      "userId": 4,
+      "name": "David Brown",
+      "age": 35,
+      "email": "david.brown@example.com",
+      "isSubscriber": true
+    },
+    {
+      "userId": 5,
+      "name": "Eva Martinez",
+      "age": 22,
+      "email": "eva.martinez@example.com",
+      "isSubscriber": false
+    },
+    {
+      "userId": 6,
+      "name": "Frank Wright",
+      "age": 40,
+      "email": "frank.wright@example.com",
+      "isSubscriber": true
+    },
+    {
+      "userId": 7,
+      "name": "Grace Lee",
+      "age": 27,
+      "email": "grace.lee@example.com",
+      "isSubscriber": false
+    },
+    {
+      "userId": 8,
+      "name": "Henry King",
+      "age": 32,
+      "email": "henry.king@example.com",
+      "isSubscriber": true
+    },
+    {
+      "userId": 9,
+      "name": "Ivy Hall",
+      "age": 24,
+      "email": "ivy.hall@example.com",
+      "isSubscriber": true
+    },
+    {
+      "userId": 10,
+      "name": "Jack Turner",
+      "age": 29,
+      "email": "jack.turner@example.com",
+      "isSubscriber": false
+    }
+  ]

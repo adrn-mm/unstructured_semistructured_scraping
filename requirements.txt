@@ -1,0 +1,9 @@
+pycoingecko
+pandas
+xmltodict
+pillow
+moviepy
+numpy
+matplotlib
+opencv-python
+opencv-contrib-python
