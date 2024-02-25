@@ -10,7 +10,7 @@ def put_text(test_img, text, x, y):
     cv2.putText(test_img, text, (x, y), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 2)
 
 # Lokasi model dan gambar di HDFS
-hdfs_image_path = '/user/csso_adrian.muhammad/images/predict.jpg'
+hdfs_image_path = '/user/csso_andrew/images/predict.jpg'
 casc_path = 'haarcascade_frontalface_default.xml'
 
 # Lokasi sementara di lokal

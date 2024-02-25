@@ -5,7 +5,7 @@ from PIL import Image
 import numpy as np
 
 # Lokasi folder di HDFS
-hdfs_image_path = '/user/csso_adrian.muhammad/images/image_training'
+hdfs_image_path = '/user/csso_andrew/images/image_training'
 
 # Lokasi sementara di lokal untuk menyimpan gambar yang diunduh
 local_image_path = '/tmp/image_training'

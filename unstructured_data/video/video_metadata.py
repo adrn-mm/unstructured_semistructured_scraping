@@ -15,7 +15,7 @@ def video_to_json(video_path):
         return json.dumps(video_info)
 
 # Lokasi video di HDFS dan lokal
-hdfs_video_path = '/user/csso_adrian.muhammad/videos/example_video.mp4'
+hdfs_video_path = '/user/csso_andrew/videos/example_video.mp4'
 local_video_path = '/tmp/example_video.mp4'
 
 # Salin video dari HDFS ke lokal
@@ -25,7 +25,7 @@ subprocess.run(['hadoop', 'fs', '-get', hdfs_video_path, local_video_path], chec
 video_json = video_to_json(local_video_path)
 
 # Lokasi dan nama file metadata JSON di HDFS
-hdfs_directory_path = '/user/csso_adrian.muhammad/videos'
+hdfs_directory_path = '/user/csso_andrew/videos'
 formatted_file_path = '/tmp/example_video_metadata.json'
 hdfs_file_name = 'example_video_metadata.json'
 

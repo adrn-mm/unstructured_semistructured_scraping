@@ -1,6 +1,6 @@
 import subprocess
   
-hdfs_directory_path = '/user/csso_adrian.muhammad/json'
+hdfs_directory_path = '/user/csso_andrew/json'
 
 # Langkah 4: Membuat external table di Hive
 hive_query = f"""

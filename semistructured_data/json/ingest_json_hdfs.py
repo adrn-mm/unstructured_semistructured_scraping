@@ -9,7 +9,7 @@ local_file_path = 'dummy.json'
 formatted_file_path = 'formatted_dummy.json'
 
 # Lokasi target di HDFS (pastikan ini adalah direktori, bukan file)
-hdfs_directory_path = '/user/csso_adrian.muhammad/json'
+hdfs_directory_path = '/user/csso_andrew/json'
 # Nama file di HDFS, dapat menggunakan nama file asli atau yang sudah diformat
 hdfs_file_name = 'dummy.json'
 

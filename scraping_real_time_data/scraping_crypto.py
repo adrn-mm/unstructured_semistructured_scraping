@@ -38,7 +38,7 @@ csv_file_path = os.path.join('/tmp', csv_file_name)
 df.to_csv(csv_file_path, index=False)
 
 # Define the HDFS destination directory
-hdfs_dir = '/user/csso_adrian.muhammad/scraping'
+hdfs_dir = '/user/csso_andrew/scraping'
 hdfs_file_path = os.path.join(hdfs_dir, csv_file_name)
 
 # Create the directory in HDFS (ignore if exists)

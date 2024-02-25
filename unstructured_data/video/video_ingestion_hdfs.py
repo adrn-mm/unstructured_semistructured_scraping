@@ -26,7 +26,7 @@ if len(sys.argv) != 2:
     sys.exit(1)
   
 local_video_path = sys.argv[1]  # Mengambil nama file video dari argumen command line
-hdfs_video_path = '/user/csso_adrian.muhammad/videos/'  # Ganti dengan path target di HDFS
+hdfs_video_path = '/user/csso_andrew/videos/'  # Ganti dengan path target di HDFS
 
 # Memanggil fungsi untuk mengunggah video
 upload_video_to_hdfs(local_video_path, hdfs_video_path)

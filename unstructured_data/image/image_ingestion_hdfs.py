@@ -26,7 +26,7 @@ if len(sys.argv) != 2:
     sys.exit(1)
 
 local_image_path = sys.argv[1]  # Mengambil nama file dari argumen command line
-hdfs_image_path = '/user/csso_adrian.muhammad/images/'  # Ganti dengan path target di HDFS
+hdfs_image_path = '/user/csso_andrew/images/'  # Ganti dengan path target di HDFS
 
 # Memanggil fungsi untuk mengunggah gambar
 upload_to_hdfs(local_image_path, hdfs_image_path)

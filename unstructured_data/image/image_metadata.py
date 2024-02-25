@@ -14,7 +14,7 @@ def image_metadata(image_path):
         return json.dumps(image_info)  # Tanpa indentasi untuk format single-line
 
 # Lokasi gambar di HDFS dan lokal
-hdfs_image_path = '/user/csso_adrian.muhammad/images/example_image.jpg'
+hdfs_image_path = '/user/csso_andrew/images/example_image.jpg'
 local_image_path = '/tmp/example_image.jpg'
 
 # Salin gambar dari HDFS ke lokal
@@ -24,7 +24,7 @@ subprocess.run(['hadoop', 'fs', '-get', hdfs_image_path, local_image_path], chec
 image_metadata_json = image_metadata(local_image_path)
 
 # Lokasi dan nama file metadata JSON di HDFS
-hdfs_directory_path = '/user/csso_adrian.muhammad/images/'
+hdfs_directory_path = '/user/csso_andrew/images/'
 formatted_file_path = '/tmp/example_image_metadata.json'
 hdfs_file_name = 'example_image_metadata.json'
 
