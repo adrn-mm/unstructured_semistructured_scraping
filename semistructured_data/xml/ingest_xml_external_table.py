@@ -40,7 +40,6 @@ print("File JSON yang sudah dikonversi berhasil di-upload ke HDFS.")
 
 # Langkah 5: Membuat external table di Hive menggunakan file JSON
 hive_query = f"""
-USE poc;
 CREATE EXTERNAL TABLE IF NOT EXISTS adrian_xml_table (
     id STRING,
     author STRING,

@@ -4,7 +4,6 @@ hdfs_directory_path = '/user/csso_adrian.muhammad/json'
 
 # Langkah 4: Membuat external table di Hive
 hive_query = f"""
-    USE poc;
     CREATE EXTERNAL TABLE IF NOT EXISTS adrian_json_table (
         userId INT,
         name STRING,
